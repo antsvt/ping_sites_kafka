@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ping-sites-kafka"
+version = "0.1.0"
+description = "Just experiments with Kafka"
+authors = ["Anatolii Sviridenkov <anatoliy.sviridenkov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+psycopg2-binary = "^2.9.9"
+kafka-python = "^2.0.2"
+json2json = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
